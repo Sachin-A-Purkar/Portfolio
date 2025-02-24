@@ -1,10 +1,17 @@
 .Main{
     height: 100%;
-    width: 100%;
+    width: 100vw;
     
 }
-html {
+html, body{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    width: 100%;
   }
   
+  @media (max-width:760px) {
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+  }

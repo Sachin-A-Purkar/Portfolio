@@ -11,19 +11,19 @@ export default function Skills(props) {
       <div className='col-3 co1'>
             <div className="skill-item">
             <a href='#Skills' title="HTML 5"><img src={props.img1} alt='HTML 5'/></a><br/>
-                <h1>HTML 5</h1>
+                <h1 className='uhead'>HTML 5</h1>
             </div>
       </div>
         <div className='col-3 co1'>
           <div className="skill-item" >
             <a href='#Skills' title="CSS 3"><img src={props.img2} alt='iyu' /></a><br/>
-            <h1>CSS 3</h1>
+            <h1 className='uhead'>CSS 3</h1>
           </div>
         </div>
         <div className='col-3 co1'>
           <div className="skill-item">
           <a href='#Skills' title="Javascript"><img src={props.img3} alt='iyi'/></a><br/>
-            <h1>Javascript </h1>
+            <h1 className='uhead'>Javascript </h1>
             </div>
         </div>
         <div className='col-3 co1'>
