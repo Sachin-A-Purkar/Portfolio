@@ -3,11 +3,14 @@
     width: 100vw;
     border-top: 2px black solid;
     align-items: center;
+    
 }
 .rc{
     height: 100%;
-    width: 100%;
+    width: 100vw;
     text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+
 }
 .heading2{
     font-size: 4rem;
@@ -21,6 +24,8 @@
     line-height: 2.5rem; /* 40px */
     font-weight: 700;
     color: #1a202c; /* Tailwind's gray-900 */
+    font-family: "Sour Gummy", sans-serif;
+
   }
   
   .para2 {
@@ -52,12 +57,12 @@
   }
 
   .pa{
-    margin: 3rem 0 0 7rem;
+    margin: 1rem 0 0 7rem;
   }
 
   .f1{
     width: 40rem;
-    margin: 3rem 0 0 3rem;
+    margin: 1rem 0 0 3rem;
   }
   .label {
     display: block;
