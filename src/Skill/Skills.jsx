@@ -29,7 +29,7 @@ export default function Skills(props) {
         <div className='col-3 co1'>
           <div className="skill-item">
           <a href='#Skills' title="BootStrap"><img src={props.img4} alt='iyr'/></a><br/>
-            <h1>Bootstrap </h1>
+            <h1 className='uhead'>Bootstrap </h1>
           </div>
         </div>
       </div>
@@ -37,25 +37,25 @@ export default function Skills(props) {
       <div className='col co2'>
         <div className="skill-item">
         <a href='#Skills' title="TailWind Css"><img src={props.img10} alt='iyn'/></a><br/>
-            <h1>TailWind CSS</h1>
+            <h1 className='uhead'>TailWind CSS</h1>
           </div>
         </div>
         <div className='col co2'>
           <div className="skill-item">
           <a href='#Skills' title="React Js"><img src={props.img5} alt='iyx'/></a><br/>
-            <h1>React js</h1>
+            <h1 className='uhead'>React js</h1>
           </div>
         </div>
         <div className='col co2'>
           <div className="skill-item">
           <a href='#Skills' title="C Programming"><img src={props.img8} alt='iyk'/></a><br/>
-            <h1>C</h1>
+            <h1 className='uhead'>C</h1>
             </div>
         </div>
         <div className='col co2'>
           <div className="skill-item">
           <a href='#Skills' title="C++"><img src={props.img9} alt='iya'/></a><br/>
-            <h1>C++</h1>
+            <h1 className='uhead'>C++</h1>
             </div>
         </div>
       </div>
@@ -63,13 +63,13 @@ export default function Skills(props) {
       <div className='col co3'>
       <div className="skill-item">
       <a href='#Skills' title="PHP"><img src={props.img7} alt='iys'/></a><br/>
-            <h1>PHP</h1>
+            <h1 className='uhead'>PHP</h1>
             </div>
         </div>
         <div className='col co3'>
         <div className="skill-item">
         <a href='#Skills' title="My SQL"><img src={props.img6} alt='iyr'/></a><br/>
-            <h1>MySQl</h1>
+            <h1 className='uhead'>MySQl</h1>
           </div>
         </div>
         

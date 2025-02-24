@@ -20,8 +20,8 @@ export default function Header() {
 
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           <li><a href="#Home">Home</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Skill">Skills</a></li>
+          <li><a href="#Project">Projects</a></li>
           <li><a href="#Academics">Academics</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>

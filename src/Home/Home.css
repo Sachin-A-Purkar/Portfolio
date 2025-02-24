@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 92vh;
   }
   
   .hb1 {
@@ -46,9 +46,17 @@
     transition: transform 0.2s ease;
   }
   .don{
-    
     margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
   }
-  .bt{
+  .but{
     margin-right: 20px;
+  }
+
+  @media (max-width:780px) {
+    
+    .ho1 {
+      height: 85vh;
+    }
   }

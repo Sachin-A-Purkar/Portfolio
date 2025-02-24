@@ -1,8 +1,7 @@
 .ng{
-    height: 467px;
-    width: 99%;
-    border-top: 2px black solid;
     
+    width: 100vw;
+    border-top: 2px black solid;
     align-items: center;
 }
 .rc{
@@ -11,7 +10,91 @@
     text-align: center;
 }
 .heading2{
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: 700;
     color: black;
+    margin-top: 1.8rem;
 }
+
+.heading3 {
+    font-size: 3.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+    font-weight: 700;
+    color: #1a202c; /* Tailwind's gray-900 */
+  }
+  
+  .para2 {
+    padding-top: 0.5rem; /* 8px */
+    padding-bottom: 1rem;
+    font-size: 1.6rem; /* 16px */
+  }
+  .ro1{
+    height: 20%;
+  }
+  .ro2{
+    height: 60%;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .bo1 {
+    width: 50vw;
+  }
+  .bo2{
+     border-left: 2px solid #313641;
+        
+  }
+  
+  .cona{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .pa{
+    margin: 3rem 0 0 7rem;
+  }
+
+  .f1{
+    width: 40rem;
+    margin: 3rem 0 0 3rem;
+  }
+  .label {
+    display: block;
+    width: 100%;
+  }
+  
+  .label-text {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f3f4f6; /* Equivalent to Tailwind's bg-gray-100 */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #7c3aed; /* Equivalent to Tailwind's violet-600 */
+    box-shadow: 0 0 6px rgba(124, 58, 237, 0.75);
+  }
+  
+  @media (max-width:760px) {
+    .f1{
+      width: 80vw;
+      margin: 3rem 3rem 3rem 2.5rem;
+    }
+      .pa{
+        width: 80vw;
+        margin: 1rem 3rem 1rem 4.5rem ;
+      }
+  }
