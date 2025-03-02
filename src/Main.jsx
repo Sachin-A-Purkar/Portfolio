@@ -39,6 +39,7 @@ export default function Main() {
 
       // Define colors for each section
       const sectionStyles = {
+        Header : { background: '#000000', text: '#FFFFFF' },
         Home: { background: '#000000', text: '#FFFFFF' },
         Skill: { background: '#FFFFFF', text: '#000000' },
         Project: { background: '#000000', text: '#FFFFFF' },
@@ -61,9 +62,11 @@ export default function Main() {
   }, []);
 
   return (
-    <div className="Main">
+    <div id="Main">
       {/* Pass dynamic background and text colors to the Header */}
-      <Header headerColor={headerColor} textColor={textColor} />
+      <div id="Header" className="section">
+        <Header headerColor={headerColor} textColor={textColor} />
+      </div>
       <div id="Home" className="section">
         <Home />
       </div>
