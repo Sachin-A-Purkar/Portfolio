@@ -26,7 +26,7 @@ export default function Header({ headerColor, textColor }) {
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        <ul className={`nav-links ${isOpen ? "open" : ""}`}>
+        <ul className={`nav-links ${isOpen ? "open" : ""}`} style={{backgroundColor:headerColor}}>
           <li><a href="#Home" style={{ color: textColor }}>Home</a></li>
           <li><a href="#Skill" style={{ color: textColor }}>Skills</a></li>
           <li><a href="#Project" style={{ color: textColor }}>Projects</a></li>

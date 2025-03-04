@@ -5,11 +5,22 @@
     justify-content: center;
     align-items: center;
     height: 92vh;
-
+    width: 100%;
   }
   
   .hb1 {
     text-align: center;
+    width: 50%;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .hb2 {
+    text-align: center;
+    width: 50%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .t1{
@@ -54,6 +65,19 @@
   .but{
     margin-right: 20px;
   }
+  
+  .prof {
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    background-size: cover;
+    border-radius: 50%;
+    border-top: 0.8rem solid red;
+    border-right: 0.8rem solid green;
+    border-bottom: 0.8rem solid blue;
+    border-left: 0.8rem solid black;
+
+}
 
   @media (max-width:780px) {
     

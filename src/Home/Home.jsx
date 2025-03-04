@@ -3,7 +3,7 @@ import "./Home.css"
 import { FaInstagram,FaLinkedin,FaGithub,FaWhatsappSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div className='ho1'>
       <div className='hb1'>
@@ -21,6 +21,11 @@ export default function Home() {
         <a href='./public/RESUME-4.pdf' download="file.pdf"><div className="btn btn-primary mt-3 w-1 but">Download Resume</div></a>
         <a href='./public/RESUME-4.pdf' download="file.pdf"><div className="btn btn-primary mt-3 w-1 but">Download Resume</div></a>
       </div>
+      </div>
+      <div className='hb2'>
+        <div className='profp'>
+        <img src={props.img11} alt='' className='prof'></img>
+        </div>
       </div>
     </div>
   )

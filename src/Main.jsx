@@ -18,6 +18,7 @@ import i11 from './assects/images/icons8-php-logo-100.png';
 import i12 from './assects/images/icons8-c-100 (1).png';
 import i13 from './assects/images/icons8-c-plus-100.png';
 import i14 from './assects/images/icons8-tailwind-css-100.png';
+import i15 from './assects/images/prof.jpg'
 
 export default function Main() {
   const [headerColor, setHeaderColor] = useState('');
@@ -39,7 +40,7 @@ export default function Main() {
 
       // Define colors for each section
       const sectionStyles = {
-        Header : { background: '#000000', text: '#FFFFFF' },
+        
         Home: { background: '#000000', text: '#FFFFFF' },
         Skill: { background: '#FFFFFF', text: '#000000' },
         Project: { background: '#000000', text: '#FFFFFF' },
@@ -68,7 +69,7 @@ export default function Main() {
         <Header headerColor={headerColor} textColor={textColor} />
       </div>
       <div id="Home" className="section">
-        <Home />
+        <Home img11={i15}/>
       </div>
       <div id="Skill" className="section">
         <Skills
