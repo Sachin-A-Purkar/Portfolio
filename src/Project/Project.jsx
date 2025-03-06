@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RxChevronRight, RxChevronLeft, RxDotFilled } from "react-icons/rx";
 import "./Project.css"; // Import your converted CSS file
 import i1 from '../assects/images/restoran.png';
-import i2 from '../assects/images/i2.jpg'
+import i2 from '../assects/images/clik.png'
 import i3 from '../assects/images/i3.jpg'
 
 function Project() {
@@ -16,8 +16,8 @@ function Project() {
         },
         {
             url: i2,
-            title: "Project 2",
-            description: "This is the description for Project 2. It is a more advanced project with additional features.",
+            title: "Clinik Website",
+            description: "A user-friendly clinic website with online booking, doctor profiles, and contact details. Fully responsive for easy access on any device",
             technologies: ["Node.js", "Express", "MongoDB"],
             link: "https://youtu.be/fYsrH2mZ7Gw?si=k2zazBv7rjQfPNcs",
         },
