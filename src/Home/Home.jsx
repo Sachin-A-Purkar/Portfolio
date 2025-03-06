@@ -3,6 +3,7 @@ import "./Home.css"
 import { FaInstagram,FaLinkedin,FaGithub,FaWhatsappSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+
 export default function Home(props) {
   return (
     <div className='ho1'>
@@ -18,7 +19,7 @@ export default function Home(props) {
       <div className='col'><a href='https://www.instagram.com/sachin_.96k._?utm_source=qr'><FaInstagram style={{color: "#ff00a2",fontSize: "40px"}} className='ic'/></a></div>
       </div>
       <div className='don'>
-        <a href='./public/RESUME-4.pdf' download="file.pdf"><div className="btn btn-primary mt-3 w-1 "id='but'>Download Resume</div></a>
+        <a href='../assects/pdf/RESUME.pdf' download="Sachin.pdf"><div className="btn btn-primary mt-3 w-1 "id='but'>Download Resume</div></a>
         
       </div>
       </div>

@@ -3,30 +3,30 @@ import { RxChevronRight, RxChevronLeft, RxDotFilled } from "react-icons/rx";
 import "./Project.css"; // Import your converted CSS file
 import i1 from '../assects/images/restoran.png';
 import i2 from '../assects/images/clik.png'
-import i3 from '../assects/images/i3.jpg'
+import i3 from '../assects/images/image.png'
 
 function Project() {
     const slides = [
         {
-            url: i1,
-            title: "Resturant Website",
-            description: "Developed a responsive restaurant website clone using the Restoran Bootstrap 5 template. The project features a modern design, sections for menus, booking, and testimonials, along with responsive layouts optimized for all devices.",
+            url: i3,
+            title: "Real Estate Website",
+            description: "A sleek and user-friendly real estate website with property listings, search filters, and easy contact options for buyers and sellers.",
             technologies: ["React", "CSS", "JavaScript"],
-            link: "https://youtu.be/fYsrH2mZ7Gw?si=k2zazBv7rjQfPNcs",
+            link: "https://github.com/Sachin-A-Purkar/Real-estate-Website",
         },
         {
             url: i2,
             title: "Clinik Website",
             description: "A user-friendly clinic website with online booking, doctor profiles, and contact details. Fully responsive for easy access on any device",
-            technologies: ["Node.js", "Express", "MongoDB"],
-            link: "https://youtu.be/fYsrH2mZ7Gw?si=k2zazBv7rjQfPNcs",
+            technologies: ["HTML", "CSS","React.js", "Javascript"],
+            link: "https://github.com/Sachin-A-Purkar/Clinik",
         },
         {
-            url: i3,
-            title: "Project 3",
-            description: "This is the description for Project 3. It highlights some of the most innovative solutions.",
-            technologies: ["Python", "Django", "PostgreSQL"],
-            link: "https://youtu.be/fYsrH2mZ7Gw?si=k2zazBv7rjQfPNcs",
+            url: i1,
+            title: "Resturant Website",
+            description: "Developed a responsive restaurant website clone using the Restoran Bootstrap 5 template. The project features a modern design, sections for menus, booking, and testimonials, along with responsive layouts optimized for all devices.",
+            technologies: ["HTML", "CSS", "Bootstrap"],
+            link: "https://github.com/Sachin-A-Purkar/Restaurant",
         },
     ];
 
