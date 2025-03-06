@@ -19,7 +19,7 @@ export default function Home(props) {
       <div className='col'><a href='https://www.instagram.com/sachin_.96k._?utm_source=qr'><FaInstagram style={{color: "#ff00a2",fontSize: "40px"}} className='ic'/></a></div>
       </div>
       <div className='don'>
-        <a href='../assects/pdf/RESUME.pdf' download="Sachin.pdf"><div className="btn btn-primary mt-3 w-1 "id='but'>Download Resume</div></a>
+        <a href='https://drive.google.com/file/d/1i8f9vpFJwhX4l26Qve6mn0ha5rcUj1fU/view?usp=drivesdk' ><div className="btn btn-primary mt-3 w-1 "id='but'>Download Resume</div></a>
         
       </div>
       </div>
