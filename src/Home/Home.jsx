@@ -13,20 +13,16 @@ export default function Home(props) {
       <div className='soc'>
       <div className='col'><a href='https://www.linkedin.com/in/sachin-purkar-131566289/'><FaLinkedin style={{color: "#0a66c2",}} className='ic'/></a></div>
       <div className='col'><a href='https://github.com/Sachin-A-Purkar'><FaGithub  className='ic'/></a></div>
-      <div className='col'><FaWhatsappSquare style={{color: "#33ff4f",fontSize: "40px"}}/></div>
-      <div className='col'><MdEmail style={{color: "#0a66c2",fontSize: "40px"}}/></div>
-      <div className='col'><a href='https://www.instagram.com/sachin_.96k._?utm_source=qr'><FaInstagram style={{color: "#ff00a2",fontSize: "40px"}} /></a></div>
+      <div className='col'><a href='https://wa.me/9021551522'><FaWhatsappSquare style={{color: "#33ff4f",fontSize: "40px"}} className='ic'/></a></div>
+      <div className='col'><a href='mailto:sachinpurkar0001@gmail.com'><MdEmail style={{color: "#0a66c2",fontSize: "40px"}} className='ic'/></a></div>
+      <div className='col'><a href='https://www.instagram.com/sachin_.96k._?utm_source=qr'><FaInstagram style={{color: "#ff00a2",fontSize: "40px"}} className='ic'/></a></div>
       </div>
       <div className='don'>
-        <a href='./public/RESUME-4.pdf' download="file.pdf"><div className="btn btn-primary mt-3 w-1 but">Download Resume</div></a>
-        <a href='./public/RESUME-4.pdf' download="file.pdf"><div className="btn btn-primary mt-3 w-1 but">Download Resume</div></a>
+        <a href='./public/RESUME-4.pdf' download="file.pdf"><div className="btn btn-primary mt-3 w-1 "id='but'>Download Resume</div></a>
+        
       </div>
       </div>
-      <div className='hb2'>
-        <div className='profp'>
-        <img src={props.img11} alt='' className='prof'></img>
-        </div>
-      </div>
+      
     </div>
   )
 }

@@ -44,7 +44,7 @@ export default function Main() {
         Home: { background: '#000000', text: '#FFFFFF' },
         Skill: { background: '#FFFFFF', text: '#000000' },
         Project: { background: '#000000', text: '#FFFFFF' },
-        Acadmecis: { background: '#FFFFFF', text: '#000000' },
+        Academics: { background: '#FFFFFF', text: '#000000' },
         Resume: { background: '#000000', text: '#FFFFFF' },
         Contact: { background: '#FFFFFF', text: '#000000' },
         Footer: { background: '#000000', text: '#FFFFFF' },
@@ -88,7 +88,7 @@ export default function Main() {
       <div id="Project" className="section">
         <Project />
       </div>
-      <div id="Acadmecis" className="section">
+      <div id="Academics" className="section">
         <Acadmeics />
       </div>
 
