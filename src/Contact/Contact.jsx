@@ -39,11 +39,11 @@ export default function Contact() {
 		<form  className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 f1">
 			<label className="block">
 				<span className="mb-1">Full name</span>
-				<input type="text" placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-gray-100"/>
+				<input type="text" placeholder="Name" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-gray-100"/>
 			</label>
 			<label className="block">
 				<span className="mb-1">Email address</span>
-				<input type="email" placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-gray-100"/>
+				<input type="email" placeholder="Email" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-gray-100"/>
 			</label>
 			<label className="block">
 				<span className="mb-1">Message</span>
