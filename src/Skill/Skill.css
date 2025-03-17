@@ -64,7 +64,7 @@ img{
 
 @media (max-width:480px) {
 
-    .skill{
-        height: 550px;
+    .co1{
+        display: flex;
     }
 }
