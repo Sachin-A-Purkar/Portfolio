@@ -39,6 +39,7 @@
     background-size: cover;
     background-position: center; 
     transition: transform 0.3s ease-in-out; 
+
   }
   
   .box:hover {
@@ -161,5 +162,9 @@
   
     .par {
       font-size: 1rem; 
+    }
+    .box{
+      background-size: contain;
+      background-repeat: no-repeat;
     }
   }
