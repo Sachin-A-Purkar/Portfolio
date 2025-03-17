@@ -19,6 +19,9 @@ import i12 from './assects/images/icons8-c-100 (1).png';
 import i13 from './assects/images/icons8-c-plus-100.png';
 import i14 from './assects/images/icons8-tailwind-css-100.png';
 import i15 from './assects/images/prof.jpg'
+import i16 from './assects/images/icons8-django-100.png';
+import i17 from './assects/images/icons8-python-100.png';
+import i18 from './assects/images/icons8-oracle-100.png';
 
 export default function Main() {
   const [headerColor, setHeaderColor] = useState('');
@@ -83,6 +86,9 @@ export default function Main() {
           img8={i12}
           img9={i13}
           img10={i14}
+          img11={i16}
+          img12={i17}
+          img13={i18}
         />
       </div>
       <div id="Project" className="section">
